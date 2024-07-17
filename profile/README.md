@@ -35,7 +35,14 @@
 
 ### Jira
 - We have decided on using Jira as a ticketing system. We mostly used it as a kanban board where we pushed tickets through different stages and introduced new tickets in a flexible manner according to our current weekly workload. <br></br>
-- 
+- Especially in the beginning some user stories were not clear enough for the team to be able to implement them in one session thus we occasionally used Jira's Subtasks to break down bigger user stories and to make sure we do not forget smaller parts of a feature.
+
+### GitHub
+- In order to catch bugs earlier we included a review process in our workflow. This means that contributing to the codebase goes only by opening a Pull Request. If the repository is meant to have any unit/integration tests they would have to pass before the PR is merged. Additionally there has to be at least one different person on the team that reviews the PR and approves it. Also we have allowed only squash commits upon merging with main in order to have a cleaner git history.
+
+### Discord, Figma
+- In order to inform the team of the progress of a PR we utilized Discord where we had a distinct channel for code reviews. There a team member can post a recently opened PR and check if it has been resolved or discuss it with the reviewer.
+- We have also used Figma for brainstorming or documenting important parts of our weekly meetings besides the artifacts like all diagrams.
 </details>
 
  
